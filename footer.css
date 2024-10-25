@@ -1,0 +1,108 @@
+:root{
+    --color:#fff;
+    --color2: (65, 65, 65);
+    --bg-color:#000;
+    --bg-color2:rgb(65, 65, 65);
+    --font-family:CircularStd, sans-serif;
+}
+#footer{
+    border: 2px solid #07122b;
+    height: 546px;
+    background-color: #07122b;
+}
+#sub-footer{
+    /* border: 2px solid palevioletred; */
+    height: 480px;
+    width:80% ;
+    margin: auto;
+    margin-top: 70px;
+    color:#949cab;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+#table{
+    display: flex;
+    width: 60%;
+    /* align-items: center; */
+}
+#sub-footer div {
+    width: 200px;
+}
+#sub-footer div img{
+    height: 50px;
+}
+#sub-footer p{
+    line-height: 112px;
+}
+#table div{
+    width: 220px;
+    /* margin-right: 60px; */
+}
+#sub-footer div+div{
+    width: 180px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    padding-left: 0%;
+    
+    /* border: 9px solid black; */
+    /* width: 200px; */
+}
+#coloum3 div+div{
+    line-height: 80px;
+}
+#table div div{
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#table div div+div{
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+#table div div+div:hover{
+    color:rgb(65, 65, 65) ;
+}
+#playstore{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    margin-bottom: 40px;
+    /* margin-left: 500px; */
+}
+#playstore img{
+    height: 50px;
+}
+#playstore img:hover{
+    cursor: pointer;
+}
+#playstore img+img{
+    height: 50px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icon i{
+    font-size: 20px;
+}
+#bottom{
+    border-top:0.3px solid #56627b;
+    height: 80px;
+    background-color: #07122b;
+}
+#bottom span{
+    color: #949cab;
+    font-weight: 100;
+    font-family: var(--font-family);
+    margin-left: 150px;
+    line-height: 50px;
+}
